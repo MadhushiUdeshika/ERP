@@ -43,6 +43,7 @@ public class D_OwnerMenu extends javax.swing.JFrame {
         registerbtn9 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         registerbtn3.setText("INCOME");
         registerbtn3.addActionListener(new java.awt.event.ActionListener() {
