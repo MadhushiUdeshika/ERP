@@ -26,21 +26,196 @@ public class B_Register extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        loginlbl = new javax.swing.JLabel();
+        usernamelbl = new javax.swing.JLabel();
+        passwordlbl = new javax.swing.JLabel();
+        usernametxt = new javax.swing.JTextField();
+        passwordpw = new javax.swing.JPasswordField();
+        registerbtn = new javax.swing.JButton();
+        kGradientPanel1 = new keeptoo.KGradientPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        loginbtn1 = new javax.swing.JButton();
+        usernamelbl1 = new javax.swing.JLabel();
+        usernametxt1 = new javax.swing.JTextField();
+        usernamelbl2 = new javax.swing.JLabel();
+        usernametxt2 = new javax.swing.JTextField();
+        usernamelbl3 = new javax.swing.JLabel();
+        usernametxt3 = new javax.swing.JTextField();
+        usernametxt4 = new javax.swing.JTextField();
+        usernamelbl4 = new javax.swing.JLabel();
+        usernametxt5 = new javax.swing.JTextField();
+        usernamelbl5 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        loginlbl.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        loginlbl.setText("REGISTER");
+
+        usernamelbl.setText("USERNAME");
+
+        passwordlbl.setText("PASSWORD");
+
+        passwordpw.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                passwordpwActionPerformed(evt);
+            }
+        });
+
+        registerbtn.setText("REGISTER");
+
+        kGradientPanel1.setkEndColor(new java.awt.Color(0, 75, 145));
+        kGradientPanel1.setkStartColor(new java.awt.Color(29, 196, 154));
+        kGradientPanel1.setPreferredSize(new java.awt.Dimension(200, 100));
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setText("SHOP");
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel2.setText("MANAGEMENT");
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setText("SYSTEM");
+
+        loginbtn1.setBackground(new java.awt.Color(29, 196, 154));
+        loginbtn1.setText("BACK");
+        loginbtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                loginbtn1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
+        kGradientPanel1.setLayout(kGradientPanel1Layout);
+        kGradientPanel1Layout.setHorizontalGroup(
+            kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2)
+                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addComponent(jLabel1))
+                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabel3)))
+                .addContainerGap(35, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
+                .addContainerGap(48, Short.MAX_VALUE)
+                .addComponent(loginbtn1, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50))
+        );
+        kGradientPanel1Layout.setVerticalGroup(
+            kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                .addGap(106, 106, 106)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel3)
+                .addGap(50, 50, 50)
+                .addComponent(loginbtn1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        usernamelbl1.setText("FULL NAME");
+
+        usernamelbl2.setText("CONTACT NUMBER");
+
+        usernamelbl3.setText("ADDRESS");
+
+        usernamelbl4.setText("DATE OF BIRTH");
+
+        usernamelbl5.setText("SERIAL KEY");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(kGradientPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(usernamelbl3)
+                                    .addComponent(usernamelbl1)
+                                    .addComponent(usernamelbl)
+                                    .addComponent(usernamelbl2)
+                                    .addComponent(usernamelbl4)
+                                    .addComponent(usernamelbl5)
+                                    .addComponent(passwordlbl))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addComponent(usernametxt1, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(usernametxt2, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(usernametxt3, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(usernametxt4, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(usernametxt5, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(passwordpw, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(usernametxt))
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(loginlbl)
+                        .addGap(59, 59, 59))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(51, 51, 51)
+                        .addComponent(registerbtn)
+                        .addContainerGap(53, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(kGradientPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 461, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(loginlbl)
+                .addGap(18, 18, 18)
+                .addComponent(usernamelbl)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernametxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernamelbl1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernametxt1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernamelbl2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernametxt2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernamelbl3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernametxt3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernamelbl4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernametxt4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernamelbl5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(usernametxt5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(passwordlbl)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(passwordpw, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(registerbtn)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void passwordpwActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordpwActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_passwordpwActionPerformed
+
+    private void loginbtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginbtn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_loginbtn1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,5 +254,26 @@ public class B_Register extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private keeptoo.KGradientPanel kGradientPanel1;
+    private javax.swing.JButton loginbtn1;
+    private javax.swing.JLabel loginlbl;
+    private javax.swing.JLabel passwordlbl;
+    private javax.swing.JPasswordField passwordpw;
+    private javax.swing.JButton registerbtn;
+    private javax.swing.JLabel usernamelbl;
+    private javax.swing.JLabel usernamelbl1;
+    private javax.swing.JLabel usernamelbl2;
+    private javax.swing.JLabel usernamelbl3;
+    private javax.swing.JLabel usernamelbl4;
+    private javax.swing.JLabel usernamelbl5;
+    private javax.swing.JTextField usernametxt;
+    private javax.swing.JTextField usernametxt1;
+    private javax.swing.JTextField usernametxt2;
+    private javax.swing.JTextField usernametxt3;
+    private javax.swing.JTextField usernametxt4;
+    private javax.swing.JTextField usernametxt5;
     // End of variables declaration//GEN-END:variables
 }
