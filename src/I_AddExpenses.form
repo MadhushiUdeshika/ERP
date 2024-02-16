@@ -85,7 +85,7 @@
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="1">
-            <StringItem index="0" value="CHEQUE"/>
+            <StringItem index="0" value="WATER BILL"/>
           </StringArray>
         </Property>
       </Properties>
